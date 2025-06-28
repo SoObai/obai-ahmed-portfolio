@@ -10,7 +10,9 @@
     "analyze": "ANALYZE=true next build",
     "clean": "rimraf .next out",
     "type-check": "tsc --noEmit",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "export": "next build && next export",
+    "deploy": "npm run build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
