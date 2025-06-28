@@ -120,7 +120,7 @@ This project is licensed under [MIT](LICENSE)
 **Obai Ahmed**  
 - 📧 [obaialid45@gmail.com](mailto:obaialid45@gmail.com)  
 - 🔗 [LinkedIn](https://linkedin.com/in/obai-ahmed-b7697433a)  
-- 🌐 Portfolio: Coming Soon  
+- 🌐 Portfolio: https://obai-ahmed-portfolio.vercel.app/
 - 🐱 [GitHub](https://github.com/SoObai)
 
 ---
