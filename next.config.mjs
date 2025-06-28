@@ -18,6 +18,8 @@ try {
 }
 
 /** @type {import('next').NextConfig} */
+const isGithubPages = process.env.GITHUB_PAGES === 'true';
+
 const nextConfig = {
   // Enable React Strict Mode for additional development checks
   reactStrictMode: true,
@@ -105,6 +107,9 @@ const nextConfig = {
       },
     ]
   },
+  
+  basePath: isGithubPages ? '/obai-ahmed-portfolio' : '',
+  assetPrefix: isGithubPages ? '/obai-ahmed-portfolio/' : '',
 }
 
 // Merge user configuration if available
